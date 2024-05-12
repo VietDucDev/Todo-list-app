@@ -1,0 +1,94 @@
+.main-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-2 {
+  width: 300px;
+  margin: 0 auto;
+}
+.input-container {
+  margin-bottom: 30px;
+}
+
+input {
+  all: initial;
+}
+
+.input {
+  border: solid 3px #fbbf24;
+  border-radius: 0.5rem;
+  padding: 10px 5px;
+  min-width: 400px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: #10b981;
+  color: #fff;
+  padding: 7px 10px;
+  margin-left: 10px;
+  min-width: 60px;
+  font-size: 25px;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.add-btn:hover {
+  background-color: #2ec492;
+}
+
+.task-list-container {
+  background-color: #fef3c7;
+  padding: 20px;
+  min-height: 30rem;
+  border-radius: 0.7rem;
+  box-shadow: 1px black;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-container > p {
+  font-family: Pangolin, cursive;
+  font-size: 24px;
+  color: rgba(180, 83, 9);
+}
+
+.filter > select {
+  padding: 5px;
+  border-radius: 0.5rem;
+  border: solid 2px rgba(217, 119, 6);
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 5px 0;
+  font-family: Pangolin, cursive;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #fbbf24;
+  height: 35px;
+}
+
+.task-item:hover > .del-btn {
+  display: inline-block;
+}
+
+.del-btn {
+  color: #b45309;
+  display: none;
+}
+
+.del-icon {
+  margin: 5px;
+}
